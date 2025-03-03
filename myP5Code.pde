@@ -12,8 +12,9 @@ draw = function(){
   triangle(200, 84, 360, 280, 50, 280);
   fill(255, 255, 255);
   text("⭐", random(200,300),random(0,400));
+  text("⭐", mouseX,mouseY);
   if (answer == 1) {
-   fill(860, 70, 255);
+   fill(15, 82, 186);
   triangle(200, 84, 360, 280, 50, 280);
   fill(255, 255, 255);
    text("Nothing Is Impossible", 136, 200);
@@ -21,7 +22,7 @@ draw = function(){
     drawFish(200, 300, color(240, 248, 255));
   }
     if (answer == 2) {
-   fill(455, 10, 0);
+   fill(25, 25, 112);
   triangle(200, 84, 360, 280, 50, 280);
   fill(255, 255, 255);
    text("You're Future", 136, 200);
@@ -30,7 +31,7 @@ draw = function(){
 
   }
     if (answer == 3) {
-   fill(60, 200, 255);
+   fill(100, 149, 237);
   triangle(200, 84, 360, 280, 50, 280);
   fill(255, 255, 255);
    text("You Can Do Anything", 136, 200);
@@ -38,7 +39,7 @@ draw = function(){
     drawPuffer(150,300)
   }
     if (answer == 4) {
-   fill(10, 210, 55);
+   fill(65, 105, 225);
   triangle(200, 84, 360, 280, 50, 280);
   fill(255, 255, 255);
    text("All Dreams Can Come True", 136, 200);
@@ -46,7 +47,7 @@ draw = function(){
     drawPuffer(150,300)
   }
    if (answer == 5) {
-   fill(255,127,80);
+   fill(8, 24, 168);
   triangle(200, 84, 360, 280, 50, 280);
   fill(255, 255, 255);
    text("Success Consists Of Going From Failure", 106, 200);
