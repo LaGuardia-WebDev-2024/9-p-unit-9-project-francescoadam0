@@ -18,9 +18,10 @@ draw = function(){
   fill(255, 255, 255);
    text("Nothing Is Impossible", 136, 200);
     text("The Word Itself Says Im Possible",129, 229); 
+    drawFish(200, 300, color(240, 248, 255));
   }
     if (answer == 2) {
-   fill(630, 10, 295);
+   fill(455, 10, 0);
   triangle(200, 84, 360, 280, 50, 280);
   fill(255, 255, 255);
    text("You're Future", 136, 200);
@@ -34,6 +35,7 @@ draw = function(){
   fill(255, 255, 255);
    text("You Can Do Anything", 136, 200);
     text("You Set Your Mind Too", 129, 229); 
+    drawPuffer(150,300)
   }
     if (answer == 4) {
    fill(10, 210, 55);
@@ -41,6 +43,7 @@ draw = function(){
   fill(255, 255, 255);
    text("All Dreams Can Come True", 136, 200);
     text("You Just Need The Courage", 129, 229); 
+    drawPuffer(150,300)
   }
    if (answer == 5) {
    fill(255,127,80);
@@ -49,7 +52,6 @@ draw = function(){
    text("Success Consists Of Going From Failure", 106, 200);
     text("To Failure Without Loss Of Enthusiasm", 99, 229); 
     drawFish(200, 300, color(240, 248, 255));
-
   }
 };
 
